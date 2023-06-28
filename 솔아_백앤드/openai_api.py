@@ -3,7 +3,7 @@ import requests
 from pprint import pprint
 import json
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 # messages = [
 #     {"role": "system", "content": "You are a kind helpful assistant."},
@@ -48,7 +48,7 @@ response = requests.post(URL, headers=headers, json=payload, stream=False)
 response.content
 
 resp = json.loads(response.content)
-pprint(resp)
+# pprint(resp)
 
 file_path = 'purchase_list.json'
 with open(file_path,'w') as f:
