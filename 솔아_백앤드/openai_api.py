@@ -24,8 +24,6 @@ openai.api_key = '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'
 #     messages.append({"role": "assistant", "content": reply})
 #     print(chat.choices[0].message.content)
 
-
-
 URL = "https://api.openai.com/v1/chat/completions"
 
 message = input("User : ")
@@ -50,7 +48,7 @@ response = requests.post(URL, headers=headers, json=payload, stream=False)
 response.content
 
 resp = json.loads(response.content)
-# pprint(resp)
+pprint(resp)
 
 file_path = 'purchase_list.json'
 with open(file_path,'w') as f:
