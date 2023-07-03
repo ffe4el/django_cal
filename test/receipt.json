@@ -1,0 +1,1 @@
+{"id": "chatcmpl-7Weh05QUuERwGiYewj63yUE57cZ4Q", "object": "chat.completion", "created": 1688017274, "model": "gpt-3.5-turbo-0613", "choices": [{"index": 0, "message": {"role": "assistant", "content": "{\n  \"address\": \"전주시 덕진구 견훤로 203 (인후동1가)\"\n}"}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 617, "completion_tokens": 31, "total_tokens": 648}}
