@@ -3,7 +3,7 @@ import requests
 from pprint import pprint
 import json
 
-openai.api_key = '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'
+openai.api_key = 'secret'
 
 # messages = [
 #     {"role": "system", "content": "You are a kind helpful assistant."},
